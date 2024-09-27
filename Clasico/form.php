@@ -11,6 +11,14 @@
     <form action="insertar.php" method="post">
         <label>Nombre</label>
         <input type="text" name="nombre" id="" placeholder="Escriba su nombre">
+        
+        <label>ApellidoPaterno</label>
+        <input type="text" name="aPaterno" id="" placeholder="Escriba su nombre">
+        
+        <label>ApellidoMaterno</label>
+        <input type="text" name="aMaterno" id="" placeholder="Escriba su nombre">
+        
+        
         <input type="submit" value="Enviar">
     </form>
 </body>
