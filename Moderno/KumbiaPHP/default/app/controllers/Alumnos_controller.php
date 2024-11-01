@@ -7,7 +7,9 @@ class AlumnosController extends RestController {
     }
 
     function Post()   {
-        $this->data = "se ejecuto post";
+        
+        
+        $this->data =  json_decode( file_get_contents('php://input') );
     
 }
 
